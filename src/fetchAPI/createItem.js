@@ -11,7 +11,6 @@ export default function callApi(payload) {
             .then((response) => response.json())
             .then((res) => {
                 resolve(res);
-                console.log(res);
             })
             .catch((error) => {
                 reject(error);

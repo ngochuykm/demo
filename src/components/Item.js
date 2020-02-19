@@ -70,6 +70,7 @@ class Item extends Component {
             }
         }
         if (this.props.items) {
+            console.log(this.props.items)
             listData = this.props.items.map((item, key) => {
                 if (key > this.state.limit - 1) {
                     return
