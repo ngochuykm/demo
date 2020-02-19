@@ -4,13 +4,6 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -25,14 +18,31 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #09d3ac;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-container{
+  position: relative;
+}
+.App-data{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+.App-function{
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+}
+.pagination {
+  text-align: left;
+}
+.pagination a{
+  display: inline-block;
+  width: 15px;
+  height: auto;
+}
+.itemPage{
+  font-size: 40px;
+  font-weight: bold;
 }
